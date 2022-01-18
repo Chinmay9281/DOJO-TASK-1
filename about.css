@@ -73,6 +73,11 @@ nav ul li a{
 #check{
     display: none;
 }
+.head-img{
+    display: inline;
+    width: 20%;
+    height: 80%;   
+}
 
 @media (max-width: 1150px){
     label.title{
@@ -137,6 +142,10 @@ nav ul li a{
     font-size: 30px;
 }
 
+.sponsers{
+    display: none;
+}
+
 .sponsers h1{
     margin: 10px;
     font-size: 50px;
@@ -186,6 +195,9 @@ nav ul li a{
     .sponser-logo{
         justify-content: baseline;
     }
+    .sponsers{
+        display: none;
+    }
 }
 
 @media (min-width:600px) and (max-width:700px) {
@@ -204,6 +216,9 @@ nav ul li a{
     .sponser-logo{
         justify-content: baseline;
     }
+    .sponsers{
+        display: none;
+    }
 }
 @media (min-width:400px) and (max-width:700px){
     #content{
@@ -218,6 +233,13 @@ nav ul li a{
     }
     .sponser-logo{
         justify-content: baseline;
+    }
+    .head-img{
+        width: 30%;
+        height: 80%;
+    }
+    .sponsers{
+        display: none;
     }
 }
 
@@ -235,6 +257,13 @@ nav ul li a{
     }
     .sponser-logo{
         justify-content: baseline;
+    }
+    .head-img{
+        width: 30%;
+        height: 80%;
+    }
+    .sponsers{
+        display: none;
     }
 }
 
@@ -255,6 +284,7 @@ nav ul li a{
     }
     .sponsers{
         justify-content: center;
+        display: none;
     }
     .card{
         width: 100%;
@@ -265,10 +295,14 @@ nav ul li a{
         justify-content: baseline;
         /* margin: 2px; */
     }
+    .head-img{
+        width: 50%;
+        height: 80%;
+    }
 }
 @media (max-width:200px){
     *{
-        margin-right: -100px;
+        margin-right: -140px;
     }
     #content{
         margin: 0px;
@@ -312,6 +346,7 @@ nav ul li a{
         /* margin-right: -80px; */
         justify-content: center;
         width: 100vh;
+        display: none;
     }
     .sponsers h1{
         font-size: 100px;
@@ -331,6 +366,10 @@ nav ul li a{
     .social-links div i{
         font-size: 90px;
     }
+    .head-img{
+        width: 50%;
+        height: 80%;
+    }
 }
 
 
@@ -347,9 +386,10 @@ nav ul li a{
     height: 80px;
     padding: 10px;
     display: flex;
+    justify-content: center;
 }
 .social-links div{
-    width: 20%;
+    width: 30%;
     text-align: center;
     font-size: 50px;
 }
